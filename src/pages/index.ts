@@ -1,3 +1,3 @@
-import SplashPage from "./splash-page"
+import SplashPage from "./SplashPage"
 
 export { SplashPage }
