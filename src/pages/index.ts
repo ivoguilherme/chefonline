@@ -1,3 +1,2 @@
-import SplashPage from "./SplashPage"
-
-export { SplashPage }
+export { SplashPage } from './SplashPage'
+export { LoginPage } from './LoginPage'
