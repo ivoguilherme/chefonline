@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import { Pressable, StyleSheet, View } from "react-native"
 import { LinearGradient } from 'expo-linear-gradient';
 import Logo from '../../assets/logo.svg';
+import styles from "./styles";
 
 export const SplashPage = ({ navigation }: any) => {
   const gradientColors = ['#FF2626', '#9B0505']
@@ -19,11 +19,3 @@ export const SplashPage = ({ navigation }: any) => {
     </LinearGradient>
   )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  }
-})
