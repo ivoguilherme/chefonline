@@ -9,8 +9,7 @@ import { Input } from "../../components";
 import styles from "./styles";
 
 export const LoginPage = ({ navigation }: any) => {
-  const handleAccess = () => alert('Acesso liberado')
-
+  const handleAccess = () => navigation.replace('ProductList')
 
   return (
     <View style={{ flex: 1 }}>

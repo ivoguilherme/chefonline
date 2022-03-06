@@ -7,7 +7,7 @@ export const SplashPage = ({ navigation }: any) => {
   const gradientColors = ['#FF2626', '#9B0505']
 
   useEffect(() => {
-    setTimeout(() => navigation.navigate('Login'), 2000)
+    setTimeout(() => navigation.replace('Login'), 2000)
   }, [])
 
   return (
