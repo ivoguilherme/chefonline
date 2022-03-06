@@ -1,6 +1,6 @@
 import { Image, Text, View } from "react-native"
 import { Product } from "../../data"
-import { Rating } from "../"
+import { Rating } from "../Rating"
 import { styles } from "./styles"
 
 type ProductCardProps = {
@@ -20,7 +20,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
         <Text style={styles.title}>{product.name}</Text>
         <Text style={styles.subtitle}>{product.store}</Text>
         <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-          <Rating />
+          <Rating rate={product.rate} />
           <Text style={styles.price}>{product.price}</Text>
         </View>
       </View>
