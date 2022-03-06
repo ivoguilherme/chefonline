@@ -1,6 +1,10 @@
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'hsla(0, 0%, 84%, 1)'
+  },
   header: {
     backgroundColor: '#BD1616',
     borderBottomLeftRadius: 12,
@@ -28,5 +32,21 @@ export const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 14,
     marginLeft: 5,
+  },
+  inputSearch: {
+    width: '100%',
+    paddingRight: 50
+  },
+  searchIcon: {
+    position: 'absolute',
+    right: 20,
+    top: 16
+  },
+  productList: {
+    width: '100%',
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    padding: 10
   }
 })

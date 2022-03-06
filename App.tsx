@@ -12,33 +12,27 @@ const Stack = createNativeStackNavigator();
 export default function App() {
   return (
     <>
-      <StatusBar backgroundColor='transparent' style='auto' />
-
+      <StatusBar style='light' backgroundColor='#000' />
       <NavigationContainer>
-        <Stack.Navigator initialRouteName='Splash'>
+        <Stack.Navigator
+          initialRouteName='Splash'
+          screenOptions={{
+            headerShown: false,
+          }}
+        >
           <Stack.Screen
             name="Splash"
             component={SplashPage}
-            options={{
-              headerShown: false,
-            }}
           />
 
           <Stack.Screen
             name="Login"
             component={LoginPage}
-            options={{
-              headerShown: false,
-            }}
           />
 
           <Stack.Screen
             name="ProductList"
             component={ProductListPage}
-            options={{
-              headerShown: false,
-              headerTintColor: '#BD1616'
-            }}
           />
         </Stack.Navigator>
       </NavigationContainer>
