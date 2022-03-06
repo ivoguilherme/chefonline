@@ -6,11 +6,12 @@ export const styles = StyleSheet.create({
     backgroundColor: 'hsla(0, 0%, 84%, 1)'
   },
   header: {
-    backgroundColor: '#BD1616',
+    backgroundColor: 'rgba(189, 22, 22, 1)',
     borderBottomLeftRadius: 12,
     borderBottomRightRadius: 12,
     paddingVertical: 35,
     paddingHorizontal: 10,
+    marginBottom: 10,
   },
   headerContent: {
     flexDirection: 'row',
@@ -42,11 +43,15 @@ export const styles = StyleSheet.create({
     right: 20,
     top: 16
   },
+  title: {
+    fontSize: 14,
+    fontWeight: 'bold',
+    marginBottom: 6
+  },
   productList: {
     width: '100%',
     justifyContent: 'space-between',
     flexDirection: 'row',
     flexWrap: 'wrap',
-    padding: 10
   }
 })
