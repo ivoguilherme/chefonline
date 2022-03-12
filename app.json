@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "appNative",
-    "slug": "appNative",
+    "name": "chefonline",
+    "slug": "chefonline",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,7 +24,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.ivo_guilherme.appNative"
+      "package": "com.ivo_guilherme.chefonline"
     },
     "web": {
       "favicon": "./assets/favicon.png"
