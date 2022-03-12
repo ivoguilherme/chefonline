@@ -1,6 +1,6 @@
 import { ImageSourcePropType } from "react-native"
 
-export type Product = {
+export interface Product {
   id: string,
   name: string
   store: string
