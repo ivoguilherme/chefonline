@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
   container: {
@@ -9,9 +9,9 @@ const styles = StyleSheet.create({
   background: {
     width: '100%',
     height: '100%',
-    opacity: .7,
+    opacity: 0.7,
     position: 'absolute',
-    backgroundColor: 'red'
+    backgroundColor: 'red',
   },
   input: {
     backgroundColor: '#fff',
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     marginTop: 36,
     color: '#fff',
     fontWeight: 'bold',
-  }
+  },
 })
 
 export default styles

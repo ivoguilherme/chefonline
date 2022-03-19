@@ -1,5 +1,5 @@
-import { Dimensions, Image, StyleProp, Text, View, ViewStyle } from "react-native"
-import { styles } from "./styles"
+import { Image, StyleProp, Text, View, ViewStyle } from 'react-native'
+import styles from './styles'
 
 interface CommentProps {
   image: any
@@ -8,9 +8,12 @@ interface CommentProps {
   containerStyle?: StyleProp<ViewStyle>
 }
 
-export const Comment: React.FC<CommentProps> = ({ image, name, rating, containerStyle }) => {
-  const width = Dimensions.get('window').width * 0.8
-
+export default function Comment({
+  image,
+  name,
+  rating,
+  containerStyle,
+}: CommentProps) {
   return (
     <View style={[styles.container, containerStyle]}>
       <Image style={styles.image} source={image} />

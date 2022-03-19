@@ -1,9 +1,9 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native'
 
-export const styles = StyleSheet.create({
+export default StyleSheet.create({
   image: {
     width: '100%',
-    borderRadius: 6
+    borderRadius: 6,
   },
   shadowImage: {
     position: 'absolute',
@@ -20,19 +20,19 @@ export const styles = StyleSheet.create({
     width: '100%',
     flexDirection: 'row',
     justifyContent: 'space-between',
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
   },
   textContainer: {},
   textBold: {
     fontWeight: 'bold',
     textTransform: 'uppercase',
     fontSize: 12,
-    color: '#fff'
+    color: '#fff',
   },
   text: {
     textTransform: 'uppercase',
     fontSize: 12,
-    color: '#fff'
+    color: '#fff',
   },
   button: {
     width: 78,
@@ -41,11 +41,11 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     alignSelf: 'center',
     borderRadius: 5,
-    backgroundColor: 'rgba(189, 22, 22, 1)'
+    backgroundColor: 'rgba(189, 22, 22, 1)',
   },
   buttonText: {
     fontSize: 12,
     fontWeight: 'bold',
-    color: '#fff'
-  }
+    color: '#fff',
+  },
 })

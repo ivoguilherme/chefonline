@@ -1,14 +1,13 @@
-import { ImageSourcePropType } from "react-native"
+import { ImageSourcePropType } from 'react-native'
 
 export interface Product {
-  id: string,
+  id: string
   name: string
   store: string
   image: ImageSourcePropType
   price: string
   rate: 0 | 1 | 2 | 3 | 4 | 5
 }
-
 
 export const productData: Array<Product> = [
   {
@@ -17,7 +16,7 @@ export const productData: Array<Product> = [
     store: 'Le Pizza',
     image: require('../assets/product_1.png'),
     price: 'R$ 35,00',
-    rate: 1
+    rate: 1,
   },
   {
     id: '1',
@@ -25,7 +24,7 @@ export const productData: Array<Product> = [
     store: 'Japan Food',
     image: require('../assets/product_2.png'),
     price: 'R$ 46,00',
-    rate: 3
+    rate: 3,
   },
   {
     id: '2',
@@ -33,7 +32,7 @@ export const productData: Array<Product> = [
     store: 'Hambúrguer Cia',
     image: require('../assets/product_3.png'),
     price: 'R$ 31,00',
-    rate: 4
+    rate: 4,
   },
   {
     id: '3',
@@ -41,7 +40,7 @@ export const productData: Array<Product> = [
     store: 'Good Fries',
     image: require('../assets/product_4.png'),
     price: 'R$ 19,00',
-    rate: 2
+    rate: 2,
   },
   {
     id: '4',
@@ -49,7 +48,7 @@ export const productData: Array<Product> = [
     store: 'Sorveteria Liza',
     image: require('../assets/product_5.png'),
     price: 'R$ 12,00',
-    rate: 0
+    rate: 0,
   },
   {
     id: '5',
@@ -57,6 +56,6 @@ export const productData: Array<Product> = [
     store: 'Baby Donut',
     image: require('../assets/product_6.png'),
     price: 'R$ 16,00',
-    rate: 5
+    rate: 5,
   },
 ]
